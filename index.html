@@ -22,7 +22,76 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="conteiner header">
+      <div class="header-mob">
+        <a class="logo link" href="./index.html">
+          Web<span class="logo-two">Studio</span>
+        </a>
+        <button type="button" class="button-menu" data-menu-open>
+          <svg class="mob-menu-icon" width="32px" height="22px">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-menu" data-menu>
+        <button type="button" class="button close-button" data-menu-close>
+          <svg class="close-icon" width="8px" height="8px">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav class="menu-site-nav">
+          <ul class="list">
+            <li class="item">
+              <a class="link current" href="./index.html">Studio</a>
+            </li>
+            <li class="item">
+              <a class="link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="item"><a class="nav link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="menu-address">
+          <ul class="list">
+            <li class="item">
+              <a class="link tel" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="item">
+              <a class="link mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="soc-list list">
+            <li class="soc-list-item">
+              <a href="" class="link">
+                <svg class="soc-list-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="soc-list-item">
+              <a href="" class="link">
+                <svg class="soc-list-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="soc-list-item">
+              <a href="" class="link">
+                <svg class="soc-list-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="soc-list-item">
+              <a href="" class="link">
+                <svg class="soc-list-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </address>
+      </div>
+
       <div class="conteiner main-nav">
         <a class="logo link" href="./index.html">
           Web<span class="logo-two">Studio</span>
@@ -51,7 +120,8 @@
           </ul>
         </address>
       </div>
-    </header> -->
+    </header>
+
     <main>
       <!-- hero page -->
 
@@ -498,5 +568,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/modal-menu.js"></script>
   </body>
 </html>
